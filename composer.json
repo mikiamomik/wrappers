@@ -1,0 +1,28 @@
+{
+  "name": "mikiamomik/wrappers",
+  "version": "1.2.10",
+  "description": "WP Wrapper delle maggiori funzionalità utilizzate in wordpress",
+  "homepage": "http://www.mediaprime.it",
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Mirko Picaro",
+      "email": "mirko@mediaprime.it",
+      "homepage": "http://www.mediaprime.it",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.8",
+    "phpunit/phpunit": "5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wrappers\\": "src/"
+    }
+  }
+}
